@@ -1,0 +1,60 @@
+
+body{
+    font-family: 'Source Sans Pro' ,sans-serif;
+}
+
+.banner{
+    background-image: url(../assets/imagens/img-fundo.jpg);
+    width: 100%;
+    height:30vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-pai{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+  
+
+}
+.img-quarto{
+    max-width: 900px;
+    display: flex;
+    margin-left: 300px;
+  
+
+}
+
+.img-quarto img{
+    width: 300px;
+    margin: 60px;
+    
+    
+
+}
+
+.lista{
+    display:flex ;
+    align-items: center;
+    flex-grow:1 ;
+    flex-wrap: wrap;
+}
+
+.lista li{
+    width: 180px;
+    margin-left:100px;
+    text-align: center;
+    color: gray;
+}
+
+
+h4{
+    text-align: center;
+    color:gray
+}
+
+
+
+
+
